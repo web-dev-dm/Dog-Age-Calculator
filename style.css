@@ -34,6 +34,34 @@ top: 7rem;
 right: 13rem;
 }
 
+/* for mobile screen */
+
+@media (max-width: 980px){
+  .push-btn {
+    top: 40rem;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .dog-img {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+  }
+    .dog-img img {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-right: 130px;
+    align-content: center;
+  }
+}
+
+
 .dog-img img{
     width: 500px;
     height: 500px;
@@ -59,6 +87,13 @@ right: 13rem;
     top: 4rem;
 }
 
+.ans{
+    background-color: aliceblue;
+    position: relative;
+    top: 10rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
 .typeIn{
     font-size: 1.5rem;
 }
