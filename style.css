@@ -1,0 +1,64 @@
+body{
+background-color: blue;
+}
+
+h1{
+color: aliceblue;
+text-align: center;
+font-size: 5rem;
+}
+
+.main-div {
+display: flex;
+justify-content: space-evenly;
+position: relative;
+top: 5rem;
+}
+
+.dog-img {
+display: inline-flex;
+}
+
+.push-btn{
+background-color: rgb(255, 0, 0);
+color: white;
+font-size: 5rem;
+height: 250px;
+width: 250px;
+border-radius: 50%;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 7rem;
+right: 13rem;
+}
+
+.dog-img img{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 10rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.heading {
+    color:white;
+}
+
+
+.form-div {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 4rem;
+}
+
+.typeIn{
+    font-size: 1.5rem;
+}
